@@ -25,8 +25,7 @@ app.use(cors({
 }));
 
 app.get('/', (req, res) => {
-  const path = resolve(process.env.STATIC_DIR + '/index.html');
-  res.sendFile(path);
+  console.log('running');
 });
 
 app.get('/config', (req, res) => {
