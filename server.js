@@ -25,7 +25,7 @@ app.use(cors({
 }));
 
 app.get('/', (req, res) => {
-  console.log('running');
+    console.log(`Running`)
 });
 
 app.get('/config', (req, res) => {
